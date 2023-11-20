@@ -1,0 +1,107 @@
+.title {
+background-color: dodgerblue;
+color: white;
+line-height: 4rem;
+font-size: 3rem;
+}
+
+body {
+    background-color: #ECF4D6;
+}
+
+main {
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9AD0C2;
+    border-radius: 30px;
+    width: 30%;
+    margin:auto;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-top: 20px;
+    /* border:5px solid #2D9596; */
+    
+
+}
+
+.question {
+    background-color: #ECF4D6;
+    padding: 10px;
+}
+
+input[type="text"]{
+    font-size: 2rem;
+    width:40px;
+    margin: 10px;
+}
+
+#theNumber {
+    margin:10px;
+}
+
+#yourAnswer {
+    margin:10px;
+}
+
+
+
+/* CSS */
+.button-7 {
+ width:100px;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+@media screen and (max-width:500px){
+
+    section { 
+        font-size: 1rem;
+    }
+
+    .button-7 {
+        width:70px;
+        font-size: 1rem;
+
+    }
+
+}
